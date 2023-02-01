@@ -1,0 +1,10 @@
+@use "./abstracts" as ab;
+@use "./components";
+
+body {
+  background-image: url(../assets/gautam/background.svg), url(../assets/gautam/gradient.svg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+
+  background-size: 100%, 50% !important;
+}
